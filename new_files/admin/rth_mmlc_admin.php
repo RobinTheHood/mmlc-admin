@@ -1,10 +1,14 @@
 <?php
-if (session_status() != PHP_SESSION_ACTIVE) {
-    session_start();
-}
-$_SESSION['accessRight'] = true;
+if ($_GET['action'] != 'show') {
+    if (session_status() != PHP_SESSION_ACTIVE) {
+        session_start();
+    }
+    $_SESSION['accessRight'] = true;
 
-session_write_close();
+    require_once '../inc/xtc_redirect.inc.php';
+    xtc_redirect('rth_mmlc_admin.php?action=show');
+}
+
 require ('includes/application_top.php');
 
 require (DIR_WS_INCLUDES . 'head.php');
