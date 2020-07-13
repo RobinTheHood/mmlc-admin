@@ -5,8 +5,8 @@ if ($_GET['action'] != 'show') {
     }
     $_SESSION['accessRight'] = true;
 
-    require_once '../inc/xtc_redirect.inc.php';
-    xtc_redirect('rth_mmlc_admin.php?action=show');
+    header('Location: ' . html_entity_decode('rth_mmlc_admin.php?action=show'));
+    exit();
 }
 
 require ('includes/application_top.php');
