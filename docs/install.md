@@ -8,7 +8,8 @@ Für die Installation benötigst Du ca. 1 Minute.
 1. Melde Dich im Adminbereich an.
 2. Gehe im Menü zu **Module > System Module**.
 3. Wähle dort das Modul **MMLC im Admin** aus und klicke auf installieren.
-4. Lies die Installationsanleitungen der abhängigen Module unter Details (falls vorhanden).
+4. Aktiviere unter **Kunden > Dein User** die Adminrechte für **rth_mmlc_admin**.
+5. Lies die Installationsanleitungen der abhängigen Module unter Details (falls vorhanden).
 
 ---
 
