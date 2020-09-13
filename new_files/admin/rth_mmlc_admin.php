@@ -33,7 +33,7 @@ require (DIR_WS_INCLUDES . 'head.php');
     </style>
 
     <script>
-        window.open('/ModifiedModuleLoaderClient');
+        window.open('<?php echo DIR_WS_CATALOG; ?>ModifiedModuleLoaderClient');
     </script>
 
     <!-- header //-->
@@ -44,7 +44,7 @@ require (DIR_WS_INCLUDES . 'head.php');
         <br><br>
         Wenn der MMLC dir nicht angezeigt wird, kontrolliere ob das Fenster/Tab von deinem Browser blockiert wurde oder klicke auf den folgenden Link:
         <br><br>
-        <a target="_blank" href="/ModifiedModuleLoaderClient"><?php echo HTTPS_SERVER;?>/ModifiedModuleLoaderClient</a>
+        <a target="_blank" href="<?php echo DIR_WS_CATALOG; ?>ModifiedModuleLoaderClient"><?php echo HTTPS_SERVER.DIR_WS_CATALOG;?>ModifiedModuleLoaderClient</a>
     </div>
 
     <!-- footer //-->
