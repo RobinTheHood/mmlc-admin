@@ -10,4 +10,3 @@ switch(basename($PHP_SELF)) {
             session_write_close();
     		break;
 }
-?>
