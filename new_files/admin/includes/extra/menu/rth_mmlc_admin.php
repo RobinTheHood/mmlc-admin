@@ -1,6 +1,10 @@
 <?php
 defined( '_VALID_XTC' ) or die( 'Direct Access to this location is not allowed.' );
 
+if (!defined(MODULE_RTH_MMLC_ADMIN_STATUS) || MODULE_RTH_MMLC_ADMIN_STATUS != 'true') {
+    return;
+}
+
 // Sprachabhaengiger Menueeintrag, kann fuer weiter Sprachen ergaenzt werden
 switch ($_SESSION['language_code']) {
     case 'de':
