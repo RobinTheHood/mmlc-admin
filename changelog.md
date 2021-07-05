@@ -3,6 +3,11 @@ Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## Unreleased
 
+## [0.2.1] - 2021-07-05
+
+### Added
+- Feature: Kompatibel mit modified 2.0.6.0
+
 ## [0.2.0] - 2020-09-16
 
 ### Added
