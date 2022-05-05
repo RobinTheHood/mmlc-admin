@@ -1,6 +1,6 @@
 <?php
 
-if (!defined(MODULE_RTH_MMLC_ADMIN_STATUS) || MODULE_RTH_MMLC_ADMIN_STATUS != 'true') {
+if (!defined('MODULE_RTH_MMLC_ADMIN_STATUS') || MODULE_RTH_MMLC_ADMIN_STATUS != 'true') {
     return;
 }
 
