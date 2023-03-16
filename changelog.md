@@ -3,6 +3,15 @@ Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ## Unreleased
 
+## [0.2.2] - 2023-03-16
+
+### Added
+- Feature: Kompatibel mit modified 2.0.7.0, modified 2.0.7.1 und modified 2.0.7.2
+
+### Changed
+- Fix: Einige PHP Notices Meldugnen entfernt
+- Fix: Notice: Use of undefined constant entfernt
+
 ## [0.2.1] - 2021-07-05
 
 ### Added
