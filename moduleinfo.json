@@ -1,7 +1,7 @@
 {
     "name": "MMLC im Admin",
     "archiveName": "robinthehood/mmlc-admin",
-    "sourceDir": "new_files",
+    "sourceDir": "src",
     "version": "auto",
 
     "shortDescription": "Macht den MMLC im Adminbereich erreichbar.",

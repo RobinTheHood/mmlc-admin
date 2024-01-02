@@ -7,8 +7,8 @@ if (!defined('MODULE_RTH_MMLC_ADMIN_STATUS') || MODULE_RTH_MMLC_ADMIN_STATUS != 
 }
 
 $fwBoxName = [
-    'de' => 'Modified Module Loader Client (MMLC)',
-    'en' => 'Modified Module Loader Client (MMLC)',
+    'de' => 'MMLC Module',
+    'en' => 'MMLC Module',
 ];
 $fwLanguageCode = $_SESSION['language_code'] ?? '';
 $fwSelectedBoxName = $fwBoxName[$fwLanguageCode] ?? $fwBoxName['de'];

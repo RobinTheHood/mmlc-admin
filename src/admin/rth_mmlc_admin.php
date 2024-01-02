@@ -9,9 +9,9 @@ if ($_GET['action'] != 'show') {
     exit();
 }
 
-require ('includes/application_top.php');
+require 'includes/application_top.php';
 
-require (DIR_WS_INCLUDES . 'head.php');
+require DIR_WS_INCLUDES . 'head.php';
 ?>
 
 <body>
@@ -33,7 +33,9 @@ require (DIR_WS_INCLUDES . 'head.php');
     </style>
 
     <script>
-        window.open('<?php echo DIR_WS_CATALOG; ?>ModifiedModuleLoaderClient');
+        setTimeout(function() {
+            window.location.href = '<?php echo DIR_WS_CATALOG; ?>ModifiedModuleLoaderClient';
+        }, 1000);
     </script>
 
     <!-- header //-->
@@ -42,9 +44,11 @@ require (DIR_WS_INCLUDES . 'head.php');
     <div id="rth-content">
         <strong>Der Modified Module Loader Client (MMLC) wird in einem neuen Fenster/Tab geöffnet.</strong>
         <br><br>
-        Wenn der MMLC dir nicht angezeigt wird, kontrolliere ob das Fenster/Tab von deinem Browser blockiert wurde oder klicke auf den folgenden Link:
+        Klicke auf den folgenden Link, wenn der MMLC nicht angezeigt wird:
         <br><br>
-        <a target="_blank" href="<?php echo DIR_WS_CATALOG; ?>ModifiedModuleLoaderClient"><?php echo HTTPS_SERVER . DIR_WS_CATALOG;?>ModifiedModuleLoaderClient</a>
+        <a href="<?php echo DIR_WS_CATALOG; ?>ModifiedModuleLoaderClient"><?php
+            echo HTTPS_SERVER . DIR_WS_CATALOG . 'ModifiedModuleLoaderClient';
+        ?></a>
     </div>
 
     <!-- footer //-->

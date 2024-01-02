@@ -1,23 +1,25 @@
 <?php
-defined( '_VALID_XTC' ) or die( 'Direct Access to this location is not allowed.' );
+
+/**
+ * @phpcs:disable PSR1.Classes.ClassDeclaration.MissingNamespace
+ * @phpcs:disable Squiz.Classes.ValidClassName.NotCamelCaps
+ * @phpcs:disable PSR1.Methods.CamelCapsMethodName
+ */
+
+declare(strict_types=1);
 
 use RobinTheHood\ModifiedStdModule\Classes\StdModule;
-require_once DIR_FS_DOCUMENT_ROOT . '/vendor-no-composer/autoload.php';
 
 class rth_mmlc_admin extends StdModule
 {
     public function __construct()
     {
-        $this->init('MODULE_RTH_MMLC_ADMIN');
+        parent::__construct('MODULE_RTH_MMLC_ADMIN');
     }
 
     public function display()
     {
         return $this->displaySaveButton();
-    }
-
-    public function process($file)
-    {
     }
 
     public function install()
