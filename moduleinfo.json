@@ -13,9 +13,17 @@
 
     "price": "free",
     
+    "php": {
+        "version": "^7.4.0 || ^8.0.0"
+    },
+
+    "mmlc": {
+        "version": "^1.21.0"
+    },
+
     "require": {
         "composer/autoload": "^1.0.0",
-        "robinthehood/modified-std-module": "^0.2.0"
+        "robinthehood/modified-std-module": "^0.7.0"
     },
 
     "modifiedCompatibility": [
