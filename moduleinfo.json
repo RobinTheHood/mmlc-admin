@@ -4,8 +4,8 @@
     "sourceDir": "src",
     "version": "auto",
 
-    "shortDescription": "Macht den MMLC im Adminbereich erreichbar.",
-    "description": "Macht den MMLC im Adminbereich erreichbar.",
+    "shortDescription": "Macht den MMLC im Adminbereich über das Menü erreichbar.",
+    "description": "Macht den MMLC im Adminbereich über das Menü erreichbar.",
 
     "developer": "Robin Wieschendorf",
     "developerWebsite": "https://robinwieschendorf.de",
