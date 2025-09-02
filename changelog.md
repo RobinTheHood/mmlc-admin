@@ -4,6 +4,10 @@ Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) 
 ## [Unreleased]
 Unreleased features and fixes can be viewed on GitHub. To do this, click on [Unreleased].
 
+## [0.8.0] - 2025-09-02
+### Added
+- Feature: Kompatibilität mit modified `3.1.5` hinzugefügt
+
 ## [0.7.0] - 2025-05-19
 ### Added
 - Feature: Kompatibilität mit modified `3.1.4` hinzugefügt
@@ -53,7 +57,8 @@ Unreleased features and fixes can be viewed on GitHub. To do this, click on [Unr
 - Fix: Die URL zum MMLC ist fehlerhaft, wenn der Shop in einem Unterverzeichnis installiert ist. (@Gulliver72)
 
 
-[Unreleased]: https://github.com/RobinTheHood/mmlc-admin/compare/0.7.0...HEAD
+[Unreleased]: https://github.com/RobinTheHood/mmlc-admin/compare/0.8.0...HEAD
+[0.8.0]: https://github.com/RobinTheHood/mmlc-admin/compare/0.7.0...0.8.0
 [0.7.0]: https://github.com/RobinTheHood/mmlc-admin/compare/0.6.0...0.7.0
 [0.6.0]: https://github.com/RobinTheHood/mmlc-admin/compare/0.5.0...0.6.0
 [0.5.0]: https://github.com/RobinTheHood/mmlc-admin/compare/0.4.0...0.5.0
